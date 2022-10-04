@@ -157,6 +157,10 @@ h6 {
 #header .subscribe {
   font-size: 15px;
   text-align: center;
+  background: url("../img/codigqr.jpeg") top center no-repeat;
+  width: 100%;
+  height: 1000%;
+  
 }
 
 #header .subscribe h4 {
@@ -165,9 +169,10 @@ h6 {
   color: #fff;
   position: relative;
   padding-bottom: 12px;
+  
 }
 
-#header .subscribe .subscribe-form {
+/* #header .subscribe .subscribe-form {
   min-width: 300px;
   margin-top: 10px;
   background: #fff;
@@ -234,7 +239,7 @@ h6 {
   border-top-color: #eee;
   -webkit-animation: animate-loading-notify 1s linear infinite;
   animation: animate-loading-notify 1s linear infinite;
-}
+} */
 
 @-webkit-keyframes animate-loading-notify {
   0% {
@@ -272,7 +277,9 @@ h6 {
 }
 
 #header .social-links a:hover {
-  color: #fff;
+  color: black;
+  filter: blur(2px);
+  transform: translatey(-3px)scale(1.05);
 }
 
 /*--------------------------------------------------------------
